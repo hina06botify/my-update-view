@@ -1,0 +1,23 @@
+  Container(
+                      padding: const EdgeInsets.symmetric(vertical: 4),
+                      color: ColorConstant.pinkGradient,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Expanded(
+                            flex: 3,
+                            child: Text(
+                                "Black Friday: ${_upgradeAccountController.discPrise.value}% Off ${_upgradeAccountController.couponCodePlan1.value.name}-",
+                                textAlign: TextAlign.right,
+                                style: TextStyleConstant.semiBold15(color: ColorConstant.whiteColor)),
+                          ),
+                          Expanded(
+                            flex: 1,
+                            child: Text(
+                                _paymentOfferTimerController
+                                    .formatTime(_paymentOfferTimerController.offerRemainingTime.value),
+                                style: TextStyleConstant.semiBold15(color: ColorConstant.whiteColor)),
+                          ),
+                        ],
+                      ),
+                    ),
