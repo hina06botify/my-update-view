@@ -5,10 +5,9 @@
     {
       "fontSize": false,
       "fontWeight": "FontWeight.w500",
-       "planName": "Lifetime",
- "offerPrice": 200,
- "bgColor": "#000000",
- "fontColor":"#FFFFFF",
-    },
-  
+      "planName": "Lifetime",
+      "offerPrice": 200,
+      "bgColor": "#000000",
+      "fontColor":"#FFFFFF",
+    }
 }
