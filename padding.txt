@@ -1,0 +1,40 @@
+{
+  "type": "Container",
+  "padding": {
+    "vertical": 4
+  },
+  "color": "#C36BD6",
+  "child": {
+    "type": "Row",
+    "mainAxisAlignment": "center",
+    "children": [
+      {
+        "type": "Expanded",
+        "flex": 3,
+        "child": {
+          "type": "Text",
+          "text": "Black Friday: {discPrise}% Off {couponCodePlan1.name}-",
+          "textAlign": "right",
+          "style": {
+            "fontWeight": "semiBold",
+            "fontSize": 15,
+            "color": "whiteColor"
+          }
+        }
+      },
+      {
+        "type": "Expanded",
+        "flex": 1,
+        "child": {
+          "type": "Text",
+          "text": "{offerRemainingTime}",
+          "style": {
+            "fontWeight": "semiBold",
+            "fontSize": 15,
+            "color": "#FFFFFF"
+          }
+        }
+      }
+    ]
+  }
+}
