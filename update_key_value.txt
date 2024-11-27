@@ -8,7 +8,7 @@
        "planName": "Lifetime,
  "offerPrice": 200,
  "bgColor": "#000000",
- "fontColor":"#FFFFFF,
+ "fontColor":"#FFFFFF",
     }
   ],
 }
