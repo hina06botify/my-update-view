@@ -26,7 +26,7 @@
                 {
                   "style": {
                     "fontSize": 20.0,
-                    "fontWeight": "bold"
+                    "fontWeight": "bold",
                     "color":"#ED1E26"
                   },
                   "text": "RICH TEXT"
